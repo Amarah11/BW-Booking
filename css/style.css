@@ -102,7 +102,7 @@ button {
 /* cover */
 
 .cover {
-  background-image: url(../images/cover-image.png);
+  background-image: url('/images/cover-image.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -184,7 +184,7 @@ button {
 }
 
 .future-ivents__wrapper::after {
-  content: url(../images/future-ivents-icon.svg);
+  content: url('/images/future-ivents-icon.svg');
   position: absolute;
   top: 80px;
   right: 60px;
@@ -198,7 +198,7 @@ button {
 }
 
 .future-ivents__title::after {
-  content: url(../images/future-ivents-title-icon.svg);
+  content: url('/images/future-ivents-title-icon.svg');
   position: absolute;
   top: -33px;
   right: -18px;
@@ -258,7 +258,7 @@ button {
 }
 
 .services__wrapper::after {
-  content: url(../images/services-icon.svg);
+  content: url('/images/services-icon.svg');
   position: absolute;
   top: 20px;
   right: 60px;
@@ -341,7 +341,7 @@ button {
 }
 
 .services-title::after {
-  content: url(../images/services-title__icon.svg);
+  content: url('/images/services-title__icon.svg');
   position: absolute;
   top: 65px;
   right: -10px;
@@ -359,7 +359,7 @@ button {
 }
 
 .past-ivents__container::after {
-  content: url(../images/past-ivents/past-ivents-icon.svg);
+  content: url('/images/past-ivents/past-ivents-icon.svg');
   position: absolute;
   top: -30px;
   right: 0px;
@@ -370,7 +370,7 @@ button {
 }
 
 .past-ivents-title::after {
-  content: url(../images/past-ivents/past-ivents-title-icon.svg);
+  content: url('/images/past-ivents/past-ivents-title-icon.svg');
   position: absolute;
   top: 65px;
   right: -30px;
@@ -422,14 +422,14 @@ button {
 }
 
 .gallery__title::before {
-  content: url(../images/gallery-decor-elem-left.svg);
+  content: url('/images/gallery-decor-elem-left.svg');
   position: absolute;
   top: 90px;
   left: -70px;
 }
 
 .gallery__title::after {
-  content: url(../images/gallery-decor-elem-right.svg);
+  content: url('/images/gallery-decor-elem-right.svg');
   position: absolute;
   top: 90px;
   right: -90px;
@@ -440,7 +440,7 @@ button {
 }
 
 .gallery-span::after {
-  content: url(../images/section-decorative-elem.svg);
+  content: url('/images/section-decorative-elem.svg');
   position: absolute;
   top: 0;
   left: -20px;
@@ -478,7 +478,7 @@ button {
 
 .gallery__item-decor-span::before {
   position: absolute;
-  content: url(../images/section-decorative-elem.svg);
+  content: url('/images/section-decorative-elem.svg');
   left: -20px;
   top: 0;
 }
@@ -516,7 +516,7 @@ button {
 }
 
 .reserve-descr__title__accent::after {
-  content: url(../images/section-decorative-elem.svg);
+  content: url('/images/section-decorative-elem.svg');
   position: absolute;
   top: 0;
   left: -20px;
@@ -549,7 +549,7 @@ button {
 }
 
 .reserve-form::after {
-  content: url(../images/reserve-form-decorative.svg);
+  content: url('/images/reserve-form-decorative.svg');
   position: absolute;
   top: -80px;
   left: 420px;
