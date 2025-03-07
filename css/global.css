@@ -6,6 +6,7 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -30,6 +31,33 @@ a {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  transition-duration: 1.1s;
+  color: var(--dark-text-color);
+  background-color: var(--light-bg-color);
+}
+
+button:hover .cover-btn-icon {
+  
 }
 
 button,
